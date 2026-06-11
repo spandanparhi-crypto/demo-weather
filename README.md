@@ -1,31 +1,22 @@
-# Streamlit Seattle Weather dashboard
+[theme]
+base = "light"
 
-Just an example Streamlit dashboard exploring the classic Seattle Weather dataset.
+# General color setup
+textColor = "#1c1919"
+primaryColor = "#00d492"
+backgroundColor = "#fafafa"
+secondaryBackgroundColor = "#ffffff"
 
-## View it in one click
+# Widgets
+showWidgetBorder = true
+borderColor = "#e7e3e4"
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://demo-seattle-weather.streamlit.app/)
+# Base text
+font = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+baseFontWeight = 400
+baseFontSize = 14
 
-## Try it on your machine
-
-1. Get the code:
-
-   ```sh
-   $ git clone https://github.com/streamlit/demo-seattle-weather.git
-   ```
-
-2. Start a virtual environment and get the dependencies (requires uv):
-
-   ```sh
-   $ uv venv
-
-   $ .venv/bin/activate
-
-   $ uv sync
-   ```
-
-3. Start the app:
-
-    ```sh
-    $ streamlit run streamlit_app.py
-    ```
+# Heading text
+headingFont = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+headingFontWeights = [600, 300, 600]
+headingFontSizes = ["3rem", "2rem", "1rem"]
