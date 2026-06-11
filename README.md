@@ -1,22 +1,31 @@
-[theme]
-base = "light"
+# Movies, movies, _movies!_
 
-# General color setup
-textColor = "#1c1919"
-primaryColor = "#00d492"
-backgroundColor = "#fafafa"
-secondaryBackgroundColor = "#ffffff"
+A demo Streamlit app analyzing the "Movies" dataset.
 
-# Widgets
-showWidgetBorder = true
-borderColor = "#e7e3e4"
+## View it in one click
 
-# Base text
-font = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-baseFontWeight = 400
-baseFontSize = 14
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://demo-movies.streamlit.app)
 
-# Heading text
-headingFont = "'Open Sans':https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-headingFontWeights = [600, 300, 600]
-headingFontSizes = ["3rem", "2rem", "1rem"]
+## Try it on your machine
+
+1. Get the code:
+
+   ```sh
+   $ git clone https://github.com/streamlit/demo-movies.git
+   ```
+
+2. Start a virtual environment and get the dependencies (requires uv):
+
+   ```sh
+   $ uv venv
+
+   $ .venv/bin/activate
+
+   $ uv sync
+   ```
+
+3. Start the app:
+
+    ```sh
+    $ streamlit run
+    ```
